@@ -29,7 +29,7 @@ nav{
     margin-left: 70px;
 }
 
-.link a:hover {
+.links a:hover {
     color: black;
 }
 
@@ -80,11 +80,11 @@ button:hover{
 .skills h2,
 .projects h2,
 .contact h2{
-    margin-botton: 30px;
+    margin-bottom: 30px;
 }
 
-.skill-container,
-.project-container {
+.skills-container,
+.projects-container {
     display: grid;
     grid-template-columns:
     repeat(auto-fit,
@@ -92,4 +92,17 @@ button:hover{
     );
     gap: 20px;
 
+}
+
+.card,
+.projects{
+    background: rgba(
+        255,
+        255,
+        255,
+        0.1
+    );
+
+    padding: 20px;
+    border-radius: 15px;
 }
