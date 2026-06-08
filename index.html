@@ -18,8 +18,9 @@
             </div>
         </nav>
         <section class="hero">
+            <div class="hero-text"></div>
             <h1>We Build Amazing Website And Digital Products</h1>
-            <p>Software Engineer,Fronteded and Backend Developer</p>
+            <p>Software Engineer,Fronteded and Backend Developer.</p>
             <button>Hire Us</button>
         </div>
         <div class="hero-img">
@@ -67,15 +68,13 @@
         <section class="contact">
             <h2>CONTACT US</h2>
 
-            <form>
-                <input type="text" placeholder="your name">
-
-                <input type="email" placeholder="your email">
-
-                <textarea placeholder="your message"></textarea>
-
-                <button>SEND MESSAGE</button>
-            </form>
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="b11ecf51-98c1-40f9-bd70-8f90c2ab0344">
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
         </section>
 
 
